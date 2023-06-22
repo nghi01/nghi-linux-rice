@@ -10,3 +10,5 @@ What you need to prepare is making sure you're able to access your BIOS (or UEFI
 Another important thing is either an USB drive or a CD/DVD (I'd prefer an USB drive). This will be our installation medium. While it's also possible to install without an USB drive, this is not something we'd go deeply into right now.
 
 Optionally, before installing Arch Linux, please create a recovery drive using a spare USB in case anything happens.
+
+## Download an Installation image
