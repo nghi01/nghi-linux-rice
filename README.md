@@ -1,4 +1,4 @@
-# nghi-linux-rice
+# Linux Rice Setup
 
 Personal linux rice setup. Btw I use Arch.
 
