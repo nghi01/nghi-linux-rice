@@ -12,7 +12,7 @@ Another important thing is either an USB drive or a CD/DVD (I'd prefer an USB dr
 Optionally, before installing Arch Linux, please create a recovery drive using a spare USB in case anything happens.
 
 ## Download an Installation image
-The ISO file that we need to install Arch is available [here](https://archlinux.org/download/). Either download via BitTorrent or through the different available from your desired countries.
+The ISO file that we need to install Arch is available [here](https://archlinux.org/download/). Either download via BitTorrent or through the different available mirrors from your desired countries.
 
 It's optional, but you can also verify the image signature to ensure the integrity of the file. You can download [gpg](https://gnupg.org/download/) to do it.
 
