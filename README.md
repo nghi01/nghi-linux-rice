@@ -16,3 +16,12 @@ The ISO file that we need to install Arch is available [here](https://archlinux.
 
 It's optional, but you can also verify the image signature to ensure the integrity of the file. You can download [gpg](https://gnupg.org/download/) to do it.
 
+## Prepare bootable medium
+Our next step is to prepare a bootable medium, ideally a bootable USB drive. You would need to mount the previously downloaded ISO file to the USB. The steps would be:
+
+- Download [Rufus](https://rufus.ie/en/), a program that helps us format and create bootable USB flash drives.
+- Launch Rufus.
+- On "Boot selection", choose the previously downloaded ISO file.
+- On "Device", choose your USB drive.
+- On "Partition scheme", if you're using a newly released machine, it's most likely GPT, with the "Target system" being UEFI. (BIOS is the legacy system, while UEFI is the new one).
+ - Press "Start" and wait until the formatting is done.
