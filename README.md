@@ -24,4 +24,12 @@ Our next step is to prepare a bootable medium, ideally a bootable USB drive. You
 - On "Boot selection", choose the previously downloaded ISO file.
 - On "Device", choose your USB drive.
 - On "Partition scheme", if you're using a newly released machine, it's most likely GPT, with the "Target system" being UEFI. (BIOS is the legacy system, while UEFI is the new one).
- - Press "Start" and wait until the formatting is done.
+- Press "Start" and wait until the formatting is done.
+## Allocate free space for Arch Linux (If dual boot)
+If you're planning to dual boot both Windows and Linux, we need to make sure there's space available in the disk for an Arch installation.
+- Press Windows + R. Run diskmgmt.msc. This will lead you to the Disk management interface.
+- It depends on your disks, but you can find your SSD name and your HDD name if you have one.
+- Now you'll need to decide how much memory you want to spend for the Arch Linux installation. I'd recommend leaving at least 15~20GB + your RAM GB of SSD for this Arch installation. You can add more HDD allocation based on your preferences.
+- Once you decide the amount, right click on each disk, and click "Shrink volume".
+- Fill in your decided amount of memory. Wait approximately 10 minutes for the shrinking to be done.
+- Once you see the black unallocated space, congratulations, you're done with allocating disk space.
