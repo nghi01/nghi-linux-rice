@@ -33,3 +33,8 @@ If you're planning to dual boot both Windows and Linux, we need to make sure the
 - Once you decide the amount, right click on each disk, and click "Shrink volume".
 - Fill in your decided amount of memory. Wait approximately 10 minutes for the shrinking to be done.
 - Once you see the black unallocated space, congratulations, you're done with allocating disk space.
+
+To understand this more clearly, we need enough memory space for / (root), home, and swap. Root will be the place where system files and softwares are installed. For this reason, root will need to have the SSD space to run Linux as fast as possible. Home is where your user home directories are, for the less intensive softwares or just storage space for softwares that do not require a lot of speed. We typically use HDD for this one, as there could be multiple users with multiple home directories that need a lot of storage space. Swap space is basically a virtual memory which supports our computers if they run out of memory and require some additional memory. Swap's just incredibly beneficial to memory allocation of our machines. For this reason, swap is much more beneficial to be on SSD.
+
+Personally, I'd go with 50 GB of free space on SSD and 150 GB of free space on HDD. Remember that Swap and Root needs SSD to be optimized. There are also some cases where you need your /home to be on SSD as well, but we will not go too much into that as you can customize later on based on your preferences. As a rule of thumb, we will allocate 1x or 2x of your RAM for swap space, and 30-40 GB of SSD for root. All of HDD can be used for home.
+
