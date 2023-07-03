@@ -19,6 +19,7 @@ It's optional, but you can also verify the image signature to ensure the integri
 ## Prepare bootable medium
 Our next step is to prepare a bootable medium, ideally a bootable USB drive. You would need to mount the previously downloaded ISO file to the USB. The steps would be:
 
+- Plug in your USB.
 - Download [Rufus](https://rufus.ie/en/), a program that helps us format and create bootable USB flash drives.
 - Launch Rufus.
 - On "Boot selection", choose the previously downloaded ISO file.
@@ -38,3 +39,6 @@ To understand this more clearly, we need enough memory space for / (root), home,
 
 Personally, I'd go with 50 GB of free space on SSD and 150 GB of free space on HDD. Remember that Swap and Root needs SSD to be optimized. There are also some cases where you need your /home to be on SSD as well, but we will not go too much into that as you can customize later on based on your preferences. As a rule of thumb, we will allocate 1x or 2x of your RAM for swap space, and 30-40 GB of SSD for root. All of HDD can be used for home.
 
+## BIOS Setup Check
+Now, with your USB still connected, the next step is to check for BIOS settings. With this, we'll need to enter the BIOS settings. The steps are:
+- Restart your computer, mash F2, F10 or F12 (this depends on your computer and I have no idea) while booting up to enter BIOS. This is definitely harder than it sounds, especially for newer machines where the boot up is very fast. Alternatively, you can instead hold Shift + Click Restart to automatically enter the advanced settings, where you can enter UEFI Firmware settings (It's UEFI for newer machines and BIOS for older machines, depending on your system).
