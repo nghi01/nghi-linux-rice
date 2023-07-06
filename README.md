@@ -42,3 +42,6 @@ Personally, I'd go with 50 GB of free space on SSD and 150 GB of free space on H
 ## BIOS Setup Check
 Now, with your USB still connected, the next step is to check for BIOS settings. With this, we'll need to enter the BIOS settings. The steps are:
 - Restart your computer, mash F2, F10 or F12 (this depends on your computer and I have no idea) while booting up to enter BIOS. This is definitely harder than it sounds, especially for newer machines where the boot up is very fast. Alternatively, you can instead hold Shift + Click Restart to automatically enter the advanced settings, where you can enter UEFI Firmware settings (It's UEFI for newer machines and BIOS for older machines, depending on your system).
+- Firstly, turn off Fast Boot and Intel Rapid Start Technology (if applicable). If you've done so, please restart and enter the BIOS/UEFI settings page again.
+- Afterwards, rotate to Boot settings, we can see the Boot Order. What we want to do is adjust so that our USB is at the top of the boot order. After doing so, save the changes and restart the computer.
+- Afterwards, you'll successfully enter Linux Installation via your USB.
