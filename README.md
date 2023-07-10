@@ -48,3 +48,11 @@ Now, with your USB still connected, the next step is to check for BIOS settings.
 
 ## Linux Installation
 What you see now is a black console screen. This is basically the fresh Arch Linux experience, where you'll need to configure a bunch of things to continue.
+1. Connect to Internet
+	* If you're using an Internet cable, 
+``` 
+ping archlinux.org 
+```
+to verify if you're having Internet.
+	* If you want to use Wi-fi, you'll need to connect to Wifi using iwctl.
+	* Type iwctl, which will bring you to the iwd console program.
