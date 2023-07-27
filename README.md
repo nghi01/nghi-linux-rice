@@ -54,5 +54,7 @@ What you see now is a black console screen. This is basically the fresh Arch Lin
 ping archlinux.org 
 ```
 to verify if you're having Internet.
+
 	* If you want to use Wi-fi, you'll need to connect to Wifi using iwctl.
+ 
 	* Type iwctl, which will bring you to the iwd console program.
