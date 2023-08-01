@@ -72,4 +72,4 @@ and then load the keyboard layouts to use them.
 ```
 loadkeys de-latin1
 ```
-
+4. Verify boot mode
