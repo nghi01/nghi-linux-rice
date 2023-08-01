@@ -58,4 +58,8 @@ ping archlinux.org
 	* Type `iwctl`, which will bring you to the iwd console program.
 
 	* Type `device list` to find available station devices.
-	* Now you know the name of the station you want to connect, type `station stationname scan` where stationname is the name of the station to scan for available wifi networks. Afterwards, type `station stationname get-networks`. Finally, connect the station to the wifi network using `station stationname connect wifiname`.
+	* Now you know the name of the station you want to connect, type `station stationname scan` where stationname is the name of the station to scan for available wifi networks. Afterwards, type `station stationname get-networks`. Finally, connect the station to the wifi network using `station stationname connect wifiname`. Type in password if necessary.
+ 	* `ping archlinux.org` to check if you have Internet.
+2. Change fonts.
+Type `setfont ter-132e` for a bigger font. Again, as Arch is a custom-based OS, you can see available fonts by typing `ls /usr/share/kbd/consolefonts/`.
+
