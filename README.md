@@ -84,4 +84,4 @@ If it returns 32, that means you're booted into BIOS, if it's 64, you've booted 
 Type `timedatectl status` to check your current timezones. In order to see available timezones, type `timedatectl list-timezones`. Afterwards, you can set your timezone by typing `timedatectl set-timezone America/New_York` or whichever your preferred timezone to be. Type `timedatectl status` to check your progress.
 
 6. Partitioning disks (Important!)
-Alright, now is a very important part. You'll need to allocate and partition the disks accordingly to run Arch properly. As explained previously, you'll need a root partition, a home partition, and a swap partition. I'd personally allocate the root partition and swap partition on SSD, and leave the home partition on HDD.
+Alright, now is a very important part. You'll need to allocate and partition the disks accordingly to run Arch properly. As explained previously, you'll need a root partition, a home partition, and a swap partition. I'd personally allocate the root partition and swap partition on SSD, and leave the home partition on HDD. For your reference, my root is 30 GB, swap is 16 GB, and home is 150 GB.
