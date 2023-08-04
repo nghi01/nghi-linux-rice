@@ -79,3 +79,8 @@ Type:
 cat /sys/firmware/efi/fw_platform_size
 ```
 If it returns 32, that means you're booted into BIOS, if it's 64, you've booted into UEFI.
+
+5. Update timezone
+Type `timedatectl status` to check your current timezones. In order to see available timezones, type `timedatectl list-timezones`. Afterwards, you can set your timezone by typing `timedatectl set-timezone America/New_York` or whichever your preferred timezone to be. Type `timedatectl status` to check your progress.
+
+6,
