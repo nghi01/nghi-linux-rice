@@ -73,3 +73,9 @@ and then load the keyboard layouts to use them.
 loadkeys de-latin1
 ```
 4. Verify boot mode
+This is totally optional, but you can verify the boot mode to make sure if you're booting into 32-bit or 64-bit.
+Type:
+```
+cat /sys/firmware/efi/fw_platform_size
+```
+If it returns 32, that means you're booted into BIOS, if it's 64, you've booted into UEFI.
