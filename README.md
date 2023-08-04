@@ -83,4 +83,4 @@ If it returns 32, that means you're booted into BIOS, if it's 64, you've booted 
 5. Update timezone
 Type `timedatectl status` to check your current timezones. In order to see available timezones, type `timedatectl list-timezones`. Afterwards, you can set your timezone by typing `timedatectl set-timezone America/New_York` or whichever your preferred timezone to be. Type `timedatectl status` to check your progress.
 
-6,
+6. Partitioning disks (Important!)
