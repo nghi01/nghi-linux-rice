@@ -85,3 +85,5 @@ Type `timedatectl status` to check your current timezones. In order to see avail
 
 6. Partitioning disks (Important!)
 Alright, now is a very important part. You'll need to allocate and partition the disks accordingly to run Arch properly. As explained previously, you'll need a root partition, a home partition, and a swap partition. I'd personally allocate the root partition and swap partition on SSD, and leave the home partition on HDD. For your reference, my root is 30 GB, swap is 16 GB, and home is 150 GB.
+
+Firstly, check all your available devices by typing either `lsblk` or `fdisk -l`
